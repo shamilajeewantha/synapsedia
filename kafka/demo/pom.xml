@@ -16,6 +16,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
+    <logLevel>INFO</logLevel>
   </properties>
 
   <dependencies>
@@ -25,7 +26,6 @@
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
-
 
     <dependency>
       <groupId>org.apache.kafka</groupId>
@@ -41,6 +41,8 @@
 
 
   </dependencies>
+
+
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
