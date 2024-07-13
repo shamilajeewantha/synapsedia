@@ -1,7 +1,7 @@
 import pika
 
 # Connect to RabbitMQ server
-connection = pika.BlockingConnection(pika.ConnectionParameters('34.125.41.92'))
+connection = pika.BlockingConnection(pika.ConnectionParameters('34.16.173.64'))
 channel = connection.channel()
 
 # Declare the queue to consume messages from
